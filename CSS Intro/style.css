@@ -1,0 +1,48 @@
+/* Tag Selector */
+h1{
+    color: green;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
+
+
+/* Use once because it will make trouble for JS*/
+/* Id Selector */
+#my-text{
+    color: blue;
+}
+
+/* Class Selector [Use as many as you want]*/
+.my-title{
+    color: blueviolet;
+}
+
+/* Background Img */
+
+body{
+    background-image: url("https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg");
+    background-size: cover;
+}
+
+.btn{
+    float: right; /*Float er main kaaj holo daan - baam kora*/
+    cursor: col-resize;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px solid #f1c40f;
+    border-radius: 5px;
+    background-color: #f8e7a2;
+
+}
+
+.btn:hover{
+    background-color: #f1c40f;
+}
+
+.my-section{
+    display: grid;
+}

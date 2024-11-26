@@ -1,0 +1,28 @@
+:root{
+    --bg-color: green;
+    --padding-btn: 20px;
+}
+
+.btn{
+    background-color: var(--bg-color);
+    padding: var(--padding-btn);
+}
+
+.my-text{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    color: var(--bg-color);
+    text-decoration: none;
+    word-spacing: 10px;
+    letter-spacing: normal;
+}
+
+.my-div{
+    line-height: 150%;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+
+.my-img{
+    filter: grayscale(100%); 
+}

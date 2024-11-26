@@ -1,0 +1,92 @@
+.btn-blue-transparent {
+    background-color: #5E3BEE;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn-blue-transparent:hover{
+    background-color: transparent;
+    color: #5E3BEE;
+    border-color: #5E3BEE;
+}
+
+.custom-img-size{
+    height:80px;
+    width: 80px;
+}
+
+.custom-card-size{
+    height: 370.33px;
+    width: 405.33px;
+}
+
+.card-hover-underline {
+    position: relative; /* Required for ::after positioning */
+    overflow: hidden;
+}
+
+.card-hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: blue; /* Blue underline */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+.card-hover-underline:hover::after {
+    width: 100%; /* Full width underline on hover */
+}
+
+
+
+.btn-pink-transparent {
+    background-color: #E62872;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn-pink-transparent:hover{
+    background-color: transparent;
+    color: #E62872;
+    border-color: #E62872;
+}
+
+.portfolio-card{
+    width: 545.67;
+    height: 654.33;
+}
+
+.icon-color-size{
+    filter: brightness(0);
+    height: 20px;
+}
+
+.dribble-hover{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
+
+
+.testimonial-text{
+    margin-top: 50px;
+    padding-left: 9px;
+}
+
+.box-border{
+    border-radius: 5px;
+    border-color: #5E3BEE;
+}
+
+@media(min-width:768px){
+    .responsive
+    {
+        padding-left: 60px;
+    }
+}
+
+
