@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="num">0</h1>
+    <button onclick="add()">Increment</button>
+    <button onclick="sub()">Decrement</button>
+</body>
+<script>
+    let count = 0;
+    function add()
+    {
+        count++;
+        const result = document.querySelector("#num");
+        result.textContent = count;
+    }
+    function sub()
+    {
+        count--;
+        const result = document.querySelector("#num");
+        result.textContent = count;
+    }
+</script>
+</html>
